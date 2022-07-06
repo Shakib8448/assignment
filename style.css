@@ -21,9 +21,11 @@ body{
     transform: translate(-50%,-50%);
     text-align: center;
 }
+
 .sec{
     margin-bottom: 50px;
 } 
+
 .sec item{
     margin-bottom: 20px;
     margin-top: 100px;
@@ -114,15 +116,16 @@ body{
     display: flex;
     margin: 20px 200px;
 }
+
 .container-box{
     padding: 30px 15px;
     text-align: left;
     margin: 20px 20px;
 }
+
 #cont-1{
     background-image: linear-gradient(rgb(212, 228, 212),rgb(195, 226, 195));
 }
-
 #cont-2{
     background-image: linear-gradient(rgb(235, 235, 188),rgb(230, 230, 179));
 }
@@ -137,6 +140,7 @@ body{
     margin: 40px 20%;
     
 }
+
 .row{
     display: flex;
     height: 88%;
@@ -153,6 +157,7 @@ body{
     color: rgb(219, 64, 64);
     font-size: 50px;
 }
+
 .row p{
     color: black;
     font-size: 18px;
@@ -160,15 +165,15 @@ body{
 }
 
 .row button{
-    width: 180px;
-    color: #fff;
-    font-size: 12px;
-    padding: 12px 0px;
-    background-color: rgb(241, 113, 90);
-    outline: none;
-    margin-top: 20px;
-    border: 0;
-    border-radius: 20px;
+width: 180px;
+color: #fff;
+font-size: 12px;
+padding: 12px 0px;
+background-color: rgb(241, 113, 90);
+outline: none;
+margin-top: 20px;
+border: 0;
+border-radius: 20px;
 }
 
 .card{
@@ -183,18 +188,23 @@ body{
     background-position: center;
     background-size: cover;
 }
+
 .card1{
     background-image: url(images/donat1.jpg);
 }
+
 .card2{
     background-image: url(images/donat2.jpg);
 }
+
 .card3{
     background-image: url(images/donat3.jpg);
 }
+
 .card4{
     background-image: url(images/donat4.jpg);
 }
+
 .email-box-background{
     justify-content: center;
     background-image: linear-gradient(rgb(243, 199, 191),rgb(247, 195, 186));
@@ -202,10 +212,12 @@ body{
     margin: 20px 270px;
     
 }
+
 .email-box{
  
     margin: 20px 180px;
 }
+
 .email-box button{
     padding: 10px 24px;
     background-image: linear-gradient(rgb(245, 157, 142),rgb(241, 61, 29));
@@ -214,6 +226,7 @@ body{
     margin-left: -5px;
     border: none;
 }
+
 .email-box input{
     padding: 10px 24px;
     border: none;
@@ -228,6 +241,7 @@ body{
     margin-top: 100px;
     font-family: 'Lobster Two', cursive;
 }
+
 .footer p{
     color: white;
 }
