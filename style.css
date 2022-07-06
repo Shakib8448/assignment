@@ -88,9 +88,15 @@ body{
 }
 
 .input-box{
+    border-top: 0px;
+    padding: 7px 0;
+    border-bottom: 1px solid rgb(43, 41, 41);
+    text-underline-offset: 2px;
+    margin-left: 24%;
+    margin-top: 50px;
+    width: 53%;
     text-align: center;
-    text-underline-offset: 2px,solid,black;
-    margin-bottom: 50px;
+    font-size: medium;
 }
 
 .container{
