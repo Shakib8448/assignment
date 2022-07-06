@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0%;
+}
+.top-banner{
+    background-image: url(images/donation20.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+}
+
+.top-banner-item{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.top-banner-item h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.top-banner-item p{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+    line-height: 1.7;
+    font-weight: 300;
+}
+
+.donate-button{
+    background-image: linear-gradient(rgb(247, 140, 121),rgb(245, 73, 43));
+    padding: 15px 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.item{
+    text-align: center;
+    padding: 40px 300px;
+}
+
+.item h1{
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.item p{
+    color: black;
+    margin-bottom: 25px;
+    font-size: 20px;
+    line-height: 1.7;
+    font-weight: 300;
+}
+
+.price-box{
+    display: flex;
+    justify-content: center;
+}
+
+.price-box div{
+    padding: 25px;
+    margin: 30px;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(236, 215, 215),rgb(233, 228, 228));
+}
+
+#select-box{
+    background-image: linear-gradient(rgb(247, 196, 187),rgb(243, 153, 137));
+    border: 2px solid tomato;
+}
+
+.input-box{
+    text-align: center;
+    text-underline-offset: 2px,solid,black;
+    margin-bottom: 50px;
+}
+
+.container{
+    display: flex;
+    margin: 20px 200px;
+}
+.container-box{
+    padding: 10px 20px;
+    text-align: left;
+    margin: 20px 20px;
+}
+#cont-1{
+    background-image: linear-gradient(rgb(212, 228, 212),rgb(195, 226, 195));
+}
+
+#cont-2{
+    background-image: linear-gradient(rgb(235, 235, 188),rgb(230, 230, 179));
+}
+#cont-3{
+    background-image: linear-gradient(rgb(248, 203, 195),rgb(248, 166, 152));
+}
+
+.email-box-background{
+    justify-content: center;
+}
