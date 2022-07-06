@@ -1,7 +1,9 @@
 body{
     margin: 0;
     padding: 0%;
+    font-family: 'Poppins', sans-serif;
 }
+
 .top-banner{
     background-image: url(images/donation20.jpg);
     background-repeat: no-repeat;
@@ -19,13 +21,15 @@ body{
     transform: translate(-50%,-50%);
     text-align: center;
 }
-
+.sec{
+    margin-bottom: 50px;
+}
 .top-banner-item h1{
     color: white;
     font-size: 40px;
     font-weight: 700;
     letter-spacing: 2px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .top-banner-item p{
@@ -47,7 +51,7 @@ body{
 
 .item{
     text-align: center;
-    padding: 40px 300px;
+    padding: 10px 300px;
 }
 
 .item h1{
@@ -109,6 +113,71 @@ body{
     background-image: linear-gradient(rgb(248, 203, 195),rgb(248, 166, 152));
 }
 
+.extra-feature{
+    display: flex;
+    margin: 20px 10px;
+    justify-content: center;
+    margin: 40px 20%;
+    
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    margin-left: 10%;
+    padding: 50px 60px;
+}
+ 
+.col{
+    flex-basis: 50%;
+}
+
+.row h1{
+    color: rgb(219, 64, 64);
+    font-size: 50px;
+}
+.row p{
+    color: black;
+    font-size: 18px;
+    line-height: 15px;
+}
+
+.row button{
+    width: 180px;
+    color: #fff;
+    font-size: 12px;
+    padding: 12px 0px;
+    background-color: rgb(241, 113, 90);
+    outline: none;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 20px;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px,25px;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+}
+.card1{
+    background-image: url(images/donat1.jpg);
+}
+.card2{
+    background-image: url(images/donat2.jpg);
+}
+.card3{
+    background-image: url(images/donat3.jpg);
+}
+.card4{
+    background-image: url(images/donat4.jpg);
+}
 .email-box-background{
     justify-content: center;
     background-image: linear-gradient(rgb(243, 199, 191),rgb(247, 195, 186));
